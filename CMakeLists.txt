@@ -47,7 +47,7 @@ endif ()
 # (3) Build flruler executable
 
 set (SOURCES flruler.C)
-add_definitions (-DVERSION=\"1.05\")
+add_definitions (-DVERSION=\"1.06\")
 add_executable (flruler WIN32 MACOSX_BUNDLE ${SOURCES})
 target_include_directories (flruler PRIVATE ${FLTK_INCLUDE_DIRS})
 target_link_libraries (flruler ${FLTK_LIBRARIES})
